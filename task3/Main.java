@@ -1,47 +1,47 @@
-package com.task3;
+package Task3;
+
+import Task2.HomeTextiles;
+import Task3.Manager.WidthComparator;
 
 import java.util.ArrayList;
-import java.util.Collection;
 
 
 public class Main {
     public static void main(String[] args) {
-        ArrayList<HomeTextiles1> searchHomeTextiles = new ArrayList<>();
+        ArrayList<HomeTextiles> searchHomeTextiles = new ArrayList<>();
 
-        HomeTextiles1 mattress = new HomeTextiles1(180,140,"Mattresses");
-        HomeTextiles1 castorCurtain = new HomeTextiles1(70,150,"Castorama curtain");
-        HomeTextiles1 jYSKCurtain = new HomeTextiles1(90,200,"JYSK curtain");
-        HomeTextiles1 iKEACurtain = new HomeTextiles1(65,180,"IKEA curtain");
-        HomeTextiles1 bedSheets = new HomeTextiles1(200,160,"Bed Sheets");
+        HomeTextiles mattress = new HomeTextiles(180, 140, "Mattresses");
+        HomeTextiles castorCurtain = new HomeTextiles(70, 150, "Castorama curtain");
+        HomeTextiles jYSKCurtain = new HomeTextiles(90, 200, "JYSK curtain");
+        HomeTextiles iKEACurtain = new HomeTextiles(65, 180, "IKEA curtain");
+        HomeTextiles bedSheets = new HomeTextiles(200, 160, "Bed Sheets");
 
         searchHomeTextiles.add(jYSKCurtain);
         searchHomeTextiles.add(castorCurtain);
         searchHomeTextiles.add(iKEACurtain);
 
-        for (HomeTextiles1 h: searchHomeTextiles) {
+        for (HomeTextiles h : searchHomeTextiles) {
             System.out.println("\n" + h);
         }
 
         WidthComparator myWidthComparator = new WidthComparator();
         searchHomeTextiles.sort(myWidthComparator);
 
-        System.out.println("Sorted: ");
-        for (HomeTextiles1 h: searchHomeTextiles) {
+        System.out.println("\n" + "Sorted: ");
+        for (HomeTextiles h : searchHomeTextiles) {
             System.out.println("\n" + h);
         }
 
+        HomeTextiles searchElement = castorCurtain;
 
-        HomeTextiles1 searchElement = castorCurtain;
 
-        // Пошук об'єктів
-        for(int i = 0; i < searchHomeTextiles.size(); i++) {
-            if (searchElement == searchHomeTextiles.get(i)){
-                System.out.println("\n" + "element is found:" + "\n" + searchElement );
+        for (int i = 0; i < searchHomeTextiles.size(); i++) {
+            if (searchElement == searchHomeTextiles.get(i)) {
+                System.out.println("\n" + "element is found:" + "\n" + searchElement);
 
                 break;
             }
+
         }
-
-
     }
 }

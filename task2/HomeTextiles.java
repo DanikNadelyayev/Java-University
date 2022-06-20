@@ -1,8 +1,18 @@
-package com.task2;
+package Task2;
 
-public class HomeTextiles  {
+import java.util.ArrayList;
+
+public class HomeTextiles {
     public int height, width;
     public String type = "Default"; // Textile type
+
+    public HomeTextiles(int height, int width, String type) {
+        this.height = height;
+        this.width = width;
+        this.type = type;
+
+    }
+    public HomeTextiles() {}
 
 
     public String toString() {

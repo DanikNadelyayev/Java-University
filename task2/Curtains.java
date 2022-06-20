@@ -1,9 +1,9 @@
-package com.task2;
+package Task2;
 
 public class Curtains extends HomeTextiles{
     public Curtains(){
-        height = 90;
-        width = 150;
-        type = "Curtains";
+        super.height = 90;
+        super.width = 150;
+        super.type = "Curtains";
     }
 }

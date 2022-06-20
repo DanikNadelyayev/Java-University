@@ -1,11 +1,13 @@
-package com.task3;
+package Task3.Manager;
+
+import Task2.HomeTextiles;
 
 import java.util.Comparator;
 
-public class HeightComparator implements Comparator<HomeTextiles1> {
+public class HeightComparator implements Comparator<HomeTextiles> {
 
     @Override
-    public int compare(HomeTextiles1 h1, HomeTextiles1 h2) {
+    public int compare(HomeTextiles h1, HomeTextiles h2) {
         if (h1.height == h2.height) {
             return 0;
         }
