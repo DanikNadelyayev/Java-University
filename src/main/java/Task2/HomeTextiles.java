@@ -12,7 +12,9 @@ public class HomeTextiles {
         this.type = type;
 
     }
-    public HomeTextiles() {}
+
+    public HomeTextiles() {
+    }
 
 
     public String toString() {
@@ -30,6 +32,17 @@ public class HomeTextiles {
     public String getType() {
         return type;
     }
+
+    public String getHeaders() {
+        return "height" + "," + "width" + "," + "type";
+    }
+
+    public String toCsv () {
+        return getType() + "," + getWidth() + "," + getHeight();
+    }
+
+
 }
+
 
 

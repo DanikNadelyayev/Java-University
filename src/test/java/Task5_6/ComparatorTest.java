@@ -1,4 +1,4 @@
-package Task5;
+package Task5_6;
 
 import Task2.HomeTextiles;
 import org.junit.jupiter.api.Test;

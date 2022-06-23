@@ -1,7 +1,6 @@
-package Task5;
+package Task5_6;
 
 import Task2.HomeTextiles;
-import org.junit.Before;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
@@ -9,10 +8,9 @@ import java.util.ArrayList;
 import static org.junit.jupiter.api.Assertions.*;
 
 class SearchHomeTextileTest {
-    @Before
-    void List () {
 
-    }
+
+    
     @Test
     void TestSearch() {
         ArrayList<HomeTextiles> searchHomeTextiles = new ArrayList<>();
