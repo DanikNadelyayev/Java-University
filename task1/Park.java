@@ -1,4 +1,4 @@
-package task1;
+package com.task1;
 
 public class Park {
     public String adr;
@@ -8,7 +8,7 @@ public class Park {
     private int sportsGrounds;
     private int cafe;
 
-    public final static int playground = 4;
+    public static int playground = 4;
 
     public static int playgroundCounter() {
 
@@ -16,7 +16,7 @@ public class Park {
     }
 
     public Park () {
-        this ("Mickevycha",1.02f,256.0f);
+        this("Mickevycha", 1.02f,256.0f);
     }
 
     public Park(String adr, float lengthOfRoads, float ticketPrice) {
@@ -27,12 +27,10 @@ public class Park {
     }
 
     public String toString() {
-        return String.format("st. %s \nBike roads: %.2f m " +
-                "\nPrice of Ticket: %.0f uah", adr, lengthOfRoads, ticketPrice);
+        return String.format("st. %s \nBike roads: %.2f m \nPrice of Ticket: %.0f uah", adr, lengthOfRoads, ticketPrice);
     }
 
     public void say() {
 
     }
-
 }
