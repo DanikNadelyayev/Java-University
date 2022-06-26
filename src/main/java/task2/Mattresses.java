@@ -8,6 +8,7 @@ public class Mattresses extends HomeTextiles {
 
     }
 
+
     @Override
     public String getHeaders() {
         return super.getHeaders() + "," + "typeOfMattress";
