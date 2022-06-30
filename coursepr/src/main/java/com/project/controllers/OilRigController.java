@@ -9,9 +9,8 @@ import java.util.Map;
 import java.util.Set;
 
 @Controller
-    public class OilRigController {
+public class OilRigController {
 
 
-
-    }
+}
 

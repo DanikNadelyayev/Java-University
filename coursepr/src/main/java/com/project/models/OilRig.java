@@ -19,13 +19,15 @@ public class OilRig {
 
     private int fillingOfTank;
 
+    private String dateOfShipmentOil;
 
-
-    public OilRig (String name, String coordinates, float amountOfOilProductionPerDay, int fillingOfTank ) {
+    public OilRig (int id, String name, String coordinates, float amountOfOilProductionPerDay, int fillingOfTank, String dateOfShipmentOil) {
         this.name = name;
         this.coordinates = coordinates;
         this.amountOfOilProductionPerDay = amountOfOilProductionPerDay;
         this.fillingOfTank = fillingOfTank;
+        this.id = id;
+        this.dateOfShipmentOil = dateOfShipmentOil;
     }
 
     public static String getHeaders() {
