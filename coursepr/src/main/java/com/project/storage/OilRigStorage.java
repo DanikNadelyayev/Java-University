@@ -13,6 +13,7 @@ import java.util.Set;
 @Component
 public class OilRigStorage {
     Map <Integer, OilRig> oilRigMap = new HashMap<Integer, OilRig>();
+    private int getId;
 
     public void oilRigToCsv() throws IOException {
 
@@ -35,6 +36,13 @@ public class OilRigStorage {
     }
     public Set<Map.Entry<Integer, OilRig>> getAllInfo() {
         return oilRigMap.entrySet();
+    }
+
+    public OilRig getById (int id) {
+      if (oilRigMap.containsKey(id)) {
+          return oilRigMap.get(id);
+      }
+      return oilRigMap.get(id);
     }
 
 
