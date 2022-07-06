@@ -1,0 +1,6 @@
+com\project\controllers\OilRigController.class
+com\project\service\OilRigService.class
+com\project\storage\OilRigStorage.class
+com\project\Main.class
+com\project\Application.class
+com\project\models\OilRig.class

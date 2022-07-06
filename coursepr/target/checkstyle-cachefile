@@ -1,0 +1,4 @@
+#Tue Jul 05 13:56:50 EEST 2022
+configuration*?=92FAF9E60BD8D6C68C074F8DEE31C7B54B8B5ACF
+module-resource*?\:checkstyle-suppressions.xml=D83395B3C58109FBC69EB237A82131FB71B41C5F
+module-resource*?\:checkstyle-xpath-suppressions.xml=FC58F6CE3B01F7E1030FEE5893916F9BCEFE492B

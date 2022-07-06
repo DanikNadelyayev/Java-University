@@ -1,9 +1,11 @@
 package com.project.models;
+
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.Entity;
+
 @Entity
 @Getter
 @Setter
@@ -21,7 +23,7 @@ public class OilRig {
 
     private String dateOfShipmentOil;
 
-    public OilRig (int id, String name, String coordinates, float amountOfOilProductionPerDay, int fillingOfTank, String dateOfShipmentOil) {
+    public OilRig(int id, String name, String coordinates, float amountOfOilProductionPerDay, int fillingOfTank, String dateOfShipmentOil) {
         this.name = name;
         this.coordinates = coordinates;
         this.amountOfOilProductionPerDay = amountOfOilProductionPerDay;
@@ -31,11 +33,11 @@ public class OilRig {
     }
 
     public static String getHeaders() {
-        return "name of Oil rig, coordinates, amount of production per day, filling of tanks";
+        return "name, coordinates, amount of production per day, filling of tanks";
     }
 
     public String toCSV() {
-    return this.getName() + "," + this.getCoordinates() + "," + this.getAmountOfOilProductionPerDay() + "," + this.getFillingOfTank();
+        return this.getName() + "," + this.getCoordinates() + "," + this.getAmountOfOilProductionPerDay() + "," + this.getFillingOfTank();
     }
 
 }
