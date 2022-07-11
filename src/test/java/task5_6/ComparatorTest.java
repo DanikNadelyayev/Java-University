@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class ComparatorTest {
 
     @Test
-    void TestComparatorMethod() {
+    void testComparatorMethod() {
         /*    @BeforeEach
     void List () throws Exception {
         ArrayList<HomeTextiles> searchHomeTextiles = new ArrayList<>();

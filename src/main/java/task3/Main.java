@@ -1,8 +1,8 @@
 package task3;
 
 import task2.HomeTextiles;
-import task3.Manager.HeightComparator;
-import task3.Manager.WidthComparator;
+import task3.manager.HeightComparator;
+import task3.manager.WidthComparator;
 
 import java.util.ArrayList;
 

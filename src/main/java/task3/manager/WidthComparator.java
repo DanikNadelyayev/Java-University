@@ -1,4 +1,4 @@
-package task3.Manager;
+package task3.manager;
 
 import task2.HomeTextiles;
 
