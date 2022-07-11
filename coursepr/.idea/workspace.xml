@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2277b0a-46de-4518-a96b-ce2d2b233434" name="Changes" comment="" />
+    <list default="true" id="b2277b0a-46de-4518-a96b-ce2d2b233434" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/service/SaveOilRigService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/storage/SaveOilRigStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CourseProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/controllers/OilRigController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/controllers/OilRigController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/models/OilRig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/models/OilRig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/service/OilRigService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/service/OilRigService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/storage/OilRigStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/storage/OilRigStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/controllers/OilRigController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/controllers/OilRigController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/models/OilRig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/models/OilRig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/service/OilRigService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/service/OilRigService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/storage/OilRigStorage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/storage/OilRigStorage.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +34,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -38,6 +58,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2An6xYImcxf9omfoIs6QlU9Esif" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,7 +68,8 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/smirnovandrey/Desktop/учеба/CourseProject&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/danik/Desktop/Универ/coding Java/tasks/Java-University&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
@@ -83,5 +105,16 @@
       <updated>1655633249446</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
