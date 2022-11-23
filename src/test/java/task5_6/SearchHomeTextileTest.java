@@ -12,7 +12,7 @@ class SearchHomeTextileTest {
 
     
     @Test
-    void TestSearch() {
+    void testSearch() {
         ArrayList<HomeTextiles> searchHomeTextiles = new ArrayList<>();
 
         HomeTextiles cartoons = new HomeTextiles(80, 170, "Cartoons from JYSK");

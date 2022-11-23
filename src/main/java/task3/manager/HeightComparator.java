@@ -1,8 +1,7 @@
-package task3.Manager;
+package task3.manager;
 
 import task2.HomeTextiles;
 
-import java.util.Collections;
 import java.util.Comparator;
 
 public class HeightComparator implements Comparator<HomeTextiles> {
